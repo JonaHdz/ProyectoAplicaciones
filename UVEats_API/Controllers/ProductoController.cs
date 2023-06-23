@@ -28,18 +28,10 @@ public class ProductoController : ControllerBase
         int resultado = 0;
         List<ProductoDomain> productos = new List<ProductoDomain>();
         (resultado, productos) = _productos.RecuperarProductos();
-        if (resultado == CodigosOperacion.ENTIDAD_NO_PROCESABLE)
             return new JsonResult(new
             {
                 codigo = resultado,
-                msg = "no se pudo recuperar la informacion de pedidos",
-                productosRecuperados = productos
-            });
-        else
-            return new JsonResult(new
-            {
-                codigo = resultado,
-                msg = "lista recuperada",
+               
                 productosRecuperados = productos
             });
     }
@@ -70,7 +62,8 @@ public class ProductoController : ControllerBase
     [HttpPost ("RegistrarProducto")]
     public ActionResult RegistrarProducto([FromBody] ProductoDomain nuevoProducto)
     {
-        Console.WriteLine("registro-----------------");
+        if(nuevoProducto.FotoProductoString != null)
+            nuevoProducto.FotoProducto = Convert.FromBase64String(nuevoProducto.FotoProductoString);
         int resultado = _productos.RegistrarProducto(nuevoProducto);
         return new JsonResult(new{
             codigo = resultado
@@ -80,6 +73,8 @@ public class ProductoController : ControllerBase
     [HttpPut ("ModificarProducto")]
     public ActionResult ModificarProducto(ProductoDomain productoModificado)
     {
+        if(productoModificado.FotoProductoString != null)
+        productoModificado.FotoProducto = Convert.FromBase64String(productoModificado.FotoProductoString);
         int resultado = _productos.ModificarProducto(productoModificado);
         return new JsonResult(new{
             codigo = resultado

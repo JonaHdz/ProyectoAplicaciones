@@ -5,7 +5,7 @@ using UVEATS_API_DOTNET.Models;
 using UVEATS_API_DOTNET.Domain;
 using Microsoft.AspNetCore.Authorization;
 
-//[Authorize]
+[Authorize]
 [ApiController]
 [Route("[controller]")] 
 
@@ -25,9 +25,11 @@ public class CategoriaController: ControllerBase
         public ActionResult RecuperarCategorias()
         {
             (int resultado, List<CategoriaDomain> categoriasRecuperadas) = _categoria.ObtenerCategorias();
-            if(resultado == CodigosOperacion.ERROR_CONEXION)
-                return new JsonResult(new{codigo = resultado ,categoriasRecuperadas});
-            return new JsonResult(new{codigo = resultado, categoriasRecuperadas});
+           //if(resultado == CodigosOperacion.ERROR_CONEXION)
+             //   return new JsonResult(new{codigo = resultado ,categoriasRecuperadas});
+            return new JsonResult(new{
+                codigo = resultado, categoriasRecuperadas
+                });
         }
 
         [HttpPost(Name = "RegistrarCategoria")]
