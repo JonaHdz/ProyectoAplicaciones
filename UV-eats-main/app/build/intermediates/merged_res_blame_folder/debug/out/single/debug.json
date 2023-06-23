@@ -1,0 +1,174 @@
+[
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\drawable_icon_product.xml.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\drawable\\icon_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-31:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.uv_eats.app-main-33:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\layout_fragment_cart.xml.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\layout\\fragment_cart.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-31:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.uv_eats.app-main-33:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\layout_fragment_record.xml.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\layout\\fragment_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\layout_activity_sign_in.xml.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\layout\\activity_sign_in.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.uv_eats.app-main-33:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-31:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.uv_eats.app-main-33:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.uv_eats.app-main-33:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.uv_eats.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.uv_eats.app-main-33:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.uv_eats.app-main-33:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.uv_eats.app-main-33:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\layout_fragment_products.xml.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\layout\\fragment_products.xml"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\drawable-v24_logologin.PNG.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\drawable-v24\\logologin.PNG"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\drawable_icon_cart.xml.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\drawable\\icon_cart.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-31:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.uv_eats.app-main-33:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.uv_eats.app-main-33:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\layout_activity_recover_password.xml.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\layout\\activity_recover_password.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.uv_eats.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-31:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.uv_eats.app-main-33:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-pngs-26:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.uv_eats.app-main-33:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\drawable_icon_record.xml.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\drawable\\icon_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\layout_activity_principal_tab_menu_activity.xml.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\layout\\activity_principal_tab_menu_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-31:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.uv_eats.app-main-33:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.uv_eats.app-main-33:/mipmap-xxhdpi/ic_launcher_round.png"
+    }
+]

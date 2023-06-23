@@ -1,0 +1,70 @@
+@model DishModel
+
+@{
+  Layout = "_MenuLayout";
+  ViewData["Title"] = "Registro de Cliente";
+}
+
+@section Styles {
+  <!-- <link rel="stylesheet" href="~/css/Home/index.css" /> -->
+}
+
+<div class="container d-flex justify-content-center align-items-center text-center py-4 rounded-9 shadow-6 form-login-container">
+  <div class="subcontainer px-5 mt-5">
+    <h2 class="my-4 text-dark fs-2 display-6">Registro de Platillo/Producto</h2>
+    @using (Html.BeginForm("Create", "Dish", FormMethod.Post, new { id = "form-create-user", enctype = "multipart/form-data", @class = "needs-validation", novalidate = "novalidate" }))
+    {
+      @Html.AntiForgeryToken()
+      @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+      <div class="d-flex">
+        <i class="d-flex align-items-center fas fa-user me-2 icon-input"></i>
+        <div class="form-outline">
+          @Html.TextBoxFor(model => model.Nombre, new { @class = "form-control form-control-lg", autocomplete = "off", required = "required", id = "input-name" })
+          <label class="form-label" for="input-name">Nombre<span class="text-danger">*</span></label>
+        </div>
+      </div>
+      @Html.ValidationMessageFor(model => model.Nombre, null, new { @class = "d-flex text-start text-danger mb-2" })
+      <div class="d-flex">
+        <i class="d-flex align-items-center fas fa-user me-2 icon-input"></i>
+        <div class="form-outline">
+          @Html.TextBoxFor(model => model.Descripcion, new { @class = "form-control form-control-lg", autocomplete = "off", required = "required", id = "input-description" })
+          <label class="form-label" for="input-description">Descripcion<span class="text-danger">*</span></label>
+        </div>
+      </div>
+      @Html.ValidationMessageFor(model => model.Descripcion, null, new { @class = "d-flex text-start text-danger mb-2" })
+      <div class="d-flex">
+        <i class="d-flex align-items-center fas fa-user me-2 icon-input"></i>
+        <div class="form-outline">
+          @Html.TextBoxFor(model => model.Precio, new { @class = "form-control form-control-lg", autocomplete = "off", required = "required", id = "input-name" })
+          <label class="form-label" for="input-price">Precio<span class="text-danger">*</span></label>
+        </div>
+      </div>
+      @Html.ValidationMessageFor(model => model.Precio, null, new { @class = "d-flex text-start text-danger mb-2" })
+      <div class="d-flex">
+        <i class="d-flex align-items-center fas fa-user me-2 icon-input"></i>
+        <div class="">
+          <select class="form-control form-control-lg" id="input-name" name="EstadoProducto" required>
+            <option value="" disabled selected>Seleccione el estado del producto</option>
+            <option value="Disponible">Disponible</option>
+            <option value="Sin stock">Sin stock</option>
+            <option value="Descartado">Descartado</option>
+            <!-- Agrega más opciones según tus necesidades -->
+          </select>
+          <label class="form-label text-start" for="input-name">Estado del producto<span class="text-danger">*</span></label>
+        </div>
+      </div>
+      @Html.ValidationMessageFor(model => model.EstadoProducto, null, new { @class = "d-flex text-start text-danger mb-2" })
+
+      
+      
+      <div class="d-flex gap-3 justify-content-end mt-4">
+        <a role="button" class="btn btn-secondary"  href="@Url.Action("Index", "Dish")">Cancelar</a>
+        <button type="submit" class="btn btn-primary" style="background-color: #000;">Continuar</button>
+      </div>
+    }    
+  </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/Home/index.js"></script>
+}

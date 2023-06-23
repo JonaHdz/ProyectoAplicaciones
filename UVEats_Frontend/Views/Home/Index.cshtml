@@ -1,0 +1,55 @@
+@model LoginViewModel
+
+@{
+  Layout = "_Layout";
+  ViewData["Title"] = "Inicio de Sesión";
+}
+
+@section Styles {
+  <link rel="stylesheet" href="~/css/Home/index.css" />
+}
+
+<div
+  class="container d-flex justify-content-center align-items-center text-center py-5  rounded-9 shadow-6 form-login-container">
+  <div class="subcontainer px-5">
+    <div class="logo-uv-eats mb-5">
+      <h2 class="display-3 fw-bold">
+        <i class="fa-solid fa-utensils fa-rotate-by" style="--fa-rotate-angle: 8deg;"></i>
+        UV<span class="text-success">Eats</span>
+      </h2>
+    </div>
+    <h2 class="my-4 text-dark fs-2 display-6">Inicio de Sesión</h2>
+    @if (ViewData["MessageError"] != null)
+    {
+    <div role="alert" class="alert alert-danger mb-4">
+      @ViewData["MessageError"]
+    </div>
+    }
+    @using (Html.BeginForm("Login", "Home", FormMethod.Post))
+    {
+      <div class="form-outline mb-4 d-flex justify-content-end align-items-center">
+        @Html.TextBoxFor(m => m.Correo, new { @class = "form-control form-control-lg", autocomplete = "off", required ="required", id = "input-email" })
+        <label class="form-label" for="input-email">Correo</label>
+        <i class="fas fa-user-alt fa-lg px-3"></i>
+      </div>
+
+      <div class="form-outline mb-5 d-flex justify-content-end align-items-center">
+        @Html.PasswordFor(m => m.Contrasena, new { @class = "form-control form-control-lg" })
+        <label class="form-label" for="input-password">Contraseña</label>
+        <i role="button" class="fas fa-eye fa-lg px-3 icon-login" id="icon-password" aria-label="Mostrar contraseña"></i>
+      </div>
+
+      <div class="d-grid gap-2">
+        <button type="submit" class="btn btn-primary btn-lg mb-4">
+          Iniciar sesión
+        </button>
+      </div>
+
+      @Html.ActionLink("¿No tienes una cuenta? Regístrate ahora", "Create", "Account", null, new { @role = "button", @class = "text-decoration" })
+    }
+  </div>
+</div>
+
+@section Scripts {
+<script src="~/js/Home/index.js"></script>
+}

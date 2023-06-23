@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">UV eats</string>
+    <string name="Label_User">Usuario</string>
+    <string name="Label_Password">Contraseña</string>
+    <string name="Button_Login">Iniciar Sesión</string>
+    <string name="Sign_In">Registrarse</string>
+    <string name="Password">Contraseña</string>
+    <string name="Menu">Menú</string>
+    <string name="Cart">Carrito</string>
+    <string name="Record">Historial</string>
+
+
+    <string name="Name">Nombre</string>
+    <string name="LastName">Apellido</string>
+    <string name="Type">Tipo</string>
+    <string name="Email">Correo electrónico</string>
+    <string name="Cancel">Cancelar</string>
+    <string name="Orders">Pedidos</string>
+    <string name="Deliveries">Entregas</string>
+
+
+    <string name="Cost">Precio</string>
+    <string name="Desc">Descripción</string>
+    <string name="NameP">Nombre</string>
+    <string name="Img">Imagen</string>
+    <string name="Categories">Categoría</string>
+
+
+    <string name="InstructionsCode">Enviar</string>
+    <string name="ValidateCode">Enviar</string>
+    <string name="newPassword">Enviar</string>
+    <string name="RepeatPassword">Enviar</string>
+    <string name="InstructionsEmail">Enviar</string>
+    <string name="SendCode">Enviar</string>
+    <string name="CategoriesDrop">dropDownMenuExample</string>
+    <string name="Return">Regresar</string>
+    <string name="Recover_Password">Regresar</string>
+
+    <string-array name="Categorias">
+        <item>Comidas</item>
+        <item>Bebidas</item>
+        <item>Postres</item>
+    </string-array>
+
+    <string name="TypeDrop">dropDownMenuExample</string>
+    <string-array name="Tipo">
+        <item>Consumidor</item>
+        <item>Empleado</item>
+    </string-array>
+</resources>
+
+
+

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.example.uv_eats.app-mergeDebugResources-30:/layout/activity_sign_in.xml",
+        "source": "com.example.uv_eats.app-main-33:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-mergeDebugResources-30:\\layout\\activity_principal_tab_menu_activity.xml",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\layout\\activity_principal_tab_menu_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-mergeDebugResources-30:\\layout\\activity_recover_password.xml",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\layout\\activity_recover_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-mergeDebugResources-30:\\layout\\fragment_products.xml",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\layout\\fragment_products.xml"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-mergeDebugResources-30:\\layout\\activity_sign_in.xml",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\layout\\activity_sign_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-mergeDebugResources-30:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Darío Castellanos\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-33:\\layout\\activity_main.xml"
+    }
+]
